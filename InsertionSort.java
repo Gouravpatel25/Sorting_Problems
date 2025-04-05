@@ -13,7 +13,7 @@ public class InsertionSort {
         }
 
         //InsertionSort Logic
-        for (int i = 0; i < args.length; i++) {
+       for (int i = 1; i < arr.length; i++) {
             int temp = arr[i];
             int j = i - 1;
 
